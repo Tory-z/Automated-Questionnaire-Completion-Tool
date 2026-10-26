@@ -1,3 +1,5 @@
+# 基于原项目添加了自动处理问卷矩阵选择题方式
+## 具体操作步骤参考最后一步
 # Safe User Filler
 
 你是否还在为了测试问卷而手动填一大堆数据？你是否还在苦于真实数据缺少而到处求情填报问卷？你是否还在为问卷测试而苦恼于数据不够多、分布不均、角色不全？
@@ -23,6 +25,10 @@ safe-survey-filler/
   prompts/
     stage1_extract_config.md
     stage2_generate_csv.md
+examples_matrix/
+    responses.csv
+    safe-user-filler.user-add-matrix.txt
+    survey_config_add_matrix.json
 ```
 
 ## 浏览器安装
@@ -131,7 +137,7 @@ JSON 中推荐给选择题加入：
 
 ```json
     "answerMode": "text"
-```/
+```
 
 ## 故障排查
 
@@ -143,3 +149,9 @@ JSON 中推荐给选择题加入：
 - 翻页失败：检查 `navigation.nextText` 是否等于页面按钮文字。
 - 没找到提交：检查 `navigation.submitText` 是否等于页面按钮文字。
 - 页面改版：点击 `清除页缓存`。
+
+## 增添问卷矩阵选择题自动回答方式
+
+1. 阅读`examples_matrix`文件
+2. 分别在扩展插件中更换`safe-user-filler.user-add-matrix.txt`、`survey_config_add_matrix.json`、`responses.csv`
+（可让AI基于这3个文件进行代码修改做出符合你个人的问卷题目）
