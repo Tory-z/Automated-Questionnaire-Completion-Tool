@@ -1,0 +1,1038 @@
+{
+  "surveyUrl": "问卷链接",
+  "name": "大学生时间分配与情感生活调查问卷",
+  "returnAfterManualSubmitMs": 1500,
+  "navigation": {
+    "nextText": ["下一页", "下一步", "继续", "Next"],
+    "submitText": ["提交", "提交问卷", "完成", "Submit"]
+  },
+  "questions": [
+    {
+      "key": "Q1_relationship_status",
+      "title": "您目前的情感状态是?(说明:恋爱指双方明确认可的关系，含线上或线下;单方面好感不计。）",
+      "type": "radio",
+      "options": [
+        "正在恋爱中",
+        "曾有过恋爱经历，目前单身",
+        "从未恋爱过，目前单身"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q2_reason_single_main",
+      "title": "(仅单身)您尚未进入恋爱关系的最主要原因是?",
+      "type": "radio",
+      "options": [
+        "我主动选择暂不恋爱（现阶段自己不想谈）",
+        "我想谈恋爱，但客观条件暂时不允许"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q3_reason_single_multi",
+      "title": "(仅单身)您尚未进入恋爱关系的最主要原因是哪些?（最多选3项）",
+      "type": "checkbox",
+      "options": [
+        "社交圈窄，缺少结识对象的机会",
+        "没遇到合适 / 心动的人",
+        "家庭态度或经济条件等外部限制",
+        "自身性格或主动性不足（如社恐、不善表达）",
+        "其他（请注明）"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q4_willingness_1y",
+      "title": "未来一年内，您开始一段恋爱关系的意愿有多大?",
+      "type": "scale",
+      "questionNo": 4,
+      "options": [
+        "完全没有",
+        "比较弱",
+        "一般",
+        "比较强烈",
+        "非常强烈"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q5_age_range",
+      "title": "您的年龄属于以下哪个区间?",
+      "type": "radio",
+      "options": [
+        "18岁及以下",
+        "19-20岁",
+        "21-22岁",
+        "23-25岁",
+        "26岁及以上"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q6_gender",
+      "title": "您的性别:",
+      "type": "radio",
+      "options": ["男", "女"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q7_education_level",
+      "title": "您目前的学历层次:",
+      "type": "radio",
+      "options": [
+        "专科",
+        "本科（含专升本）",
+        "硕士研究生",
+        "博士研究生"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q8_grade",
+      "title": "您目前的年级:",
+      "type": "radio",
+      "options": [
+        "大一",
+        "大二",
+        "大三",
+        "大四",
+        "大五及以上",
+        "研一",
+        "研二",
+        "研三及以上",
+        "博一",
+        "博二",
+        "博三及以上"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q9_major_category",
+      "title": "您的专业类别:",
+      "type": "radio",
+      "options": [
+        "人文",
+        "社科（经管法）",
+        "理学",
+        "工学",
+        "农学",
+        "医学",
+        "艺术体育"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q10_university_type",
+      "title": "您就读的院校类型:",
+      "type": "radio",
+      "options": [
+        "\"双一流\"高校",
+        "普通本科院校",
+        "高职高专院校",
+        "科研院所"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "\"双一流\"高校": ["“双一流”高校", "双一流高校"]
+      }
+    },
+    {
+      "key": "Q11_university_city",
+      "title": "您学校所在的城市（填空，格式如\"湖北-武汉\"）:",
+      "type": "text",
+      "options": [],
+      "answerMode": "text",
+      "defaultValue": "广东-广州",
+      "answerPool": [
+        "广东-广州",
+        "广东-惠州",
+        "广东-深圳",
+        "广东-佛山",
+        "江苏-南京",
+        "湖北-武汉",
+        "四川-成都",
+        "陕西-西安",
+        "江西-赣州",
+        "广西-南宁",
+        "福建-福州",
+        "河南-郑州"
+      ],
+      "poolMode": "random",
+      "aliases": {
+        "您学校所在的城市（填空，格式如\"湖北-武汉\"）:": [
+          "您学校所在的城市（填空，格式如“湖北-武汉”）：",
+          "您学校所在的城市"
+        ]
+      }
+    },
+    {
+      "key": "Q12_origin",
+      "title": "您的生源地:",
+      "type": "radio",
+      "options": ["城市", "县城/乡镇", "农村"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q13_monthly_allowance",
+      "title": "近一个月，您可支配的月生活费约为（不含学费）?",
+      "type": "radio",
+      "options": [
+        "1000元以下",
+        "1000-1500元",
+        "1500-2000元",
+        "2000-3000元",
+        "3000元及以上"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q14_expected_salary",
+      "title": "您毕业后期望的月薪约为?",
+      "type": "radio",
+      "options": [
+        "4000元以下",
+        "4000-6000元",
+        "6000-8000元",
+        "8000-12000元",
+        "12000元以上"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q15_relationship_count",
+      "title": "您有过几次恋爱经历（包含正在进行的）?",
+      "type": "radio",
+      "options": ["0次", "1次", "2次", "3次及以上"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q16_1_academic_pressure",
+      "title": "我常因学业、科研或就业感到压力",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 16,
+      "rowIndex": 1,
+      "rowText": "我常因学业、科研或就业感到压力",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q16_2_time_insufficient",
+      "title": "我经常觉得时间不够用",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 16,
+      "rowIndex": 2,
+      "rowText": "我经常觉得时间不够用",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q16_3_parents_expect",
+      "title": "我的父母希望我在读书期间谈恋爱（家庭婚恋观念）",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 16,
+      "rowIndex": 3,
+      "rowText": "我的父母希望我在读书期间谈恋爱（家庭婚恋观念）",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q16_4_family_cautious",
+      "title": "总体而言，我的家庭对婚恋持谨慎态度（如\"先立业后成家\"）",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 16,
+      "rowIndex": 4,
+      "rowText": "总体而言，我的家庭对婚恋持谨慎态度（如\"先立业后成家\"）",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "总体而言，我的家庭对婚恋持谨慎态度（如\"先立业后成家\"）": [
+          "总体而言，我的家庭对婚恋持谨慎态度（如“先立业后成家”）",
+          "我的家庭对婚恋持谨慎态度"
+        ]
+      }
+    },
+    {
+      "key": "Q17_1_natural_attitude",
+      "title": "我对恋爱持\"顺其自然、观望\"的态度，不会刻意主动追求",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 17,
+      "rowIndex": 1,
+      "rowText": "我对恋爱持\"顺其自然、观望\"的态度，不会刻意主动追求",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "我对恋爱持\"顺其自然、观望\"的态度，不会刻意主动追求": [
+          "我对恋爱持“顺其自然、观望”的态度，不会刻意主动追求"
+        ]
+      }
+    },
+    {
+      "key": "Q17_2_wait_and_see",
+      "title": "即使遇到有好感的人，我也倾向于先观望，不急着开始",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 17,
+      "rowIndex": 2,
+      "rowText": "即使遇到有好感的人，我也倾向于先观望，不急着开始",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q17_3_enjoy_single",
+      "title": "我享受目前的单身生活，没有强烈的脱单意愿",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 17,
+      "rowIndex": 3,
+      "rowText": "我享受目前的单身生活，没有强烈的脱单意愿",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q17_4_hesitate",
+      "title": "即使遇到比较合适的对象，我也会犹豫是否要进入一段关系",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 17,
+      "rowIndex": 4,
+      "rowText": "即使遇到比较合适的对象，我也会犹豫是否要进入一段关系",
+      "matrixTitle": "请评价以下说法与您的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q18_1_time_squeeze",
+      "title": "谈恋爱会明显挤占我用于学习和自我提升的时间",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 18,
+      "rowIndex": 1,
+      "rowText": "谈恋爱会明显挤占我用于学习和自我提升的时间",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q18_2_performance_impact",
+      "title": "如果谈恋爱，我的绩点、科研、实习或竞赛表现可能会受到影响",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 18,
+      "rowIndex": 2,
+      "rowText": "如果谈恋爱，我的绩点、科研、实习或竞赛表现可能会受到影响",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q18_3_future_benefit",
+      "title": "花在恋爱上的时间，如果用来实习、考证或做项目，对我的未来帮助更大",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 18,
+      "rowIndex": 3,
+      "rowText": "花在恋爱上的时间，如果用来实习、考证或做项目，对我的未来帮助更大",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q18_4_low_return",
+      "title": "在我目前的人生阶段，时间是最宝贵的资源，我不愿意把它\"低回报\"地消耗掉",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 18,
+      "rowIndex": 4,
+      "rowText": "在我目前的人生阶段，时间是最宝贵的资源，我不愿意把它\"低回报\"地消耗掉",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "在我目前的人生阶段，时间是最宝贵的资源，我不愿意把它\"低回报\"地消耗掉": [
+          "在我目前的人生阶段，时间是最宝贵的资源，我不愿意把它“低回报”地消耗掉"
+        ]
+      }
+    },
+    {
+      "key": "Q19_1_unrecoverable_investment",
+      "title": "如果将来分手，我在恋爱中投入的时间和精力将大部分无法收回",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 19,
+      "rowIndex": 1,
+      "rowText": "如果将来分手，我在恋爱中投入的时间和精力将大部分无法收回",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q19_2_breakup_shock",
+      "title": "如果将来分手，我的学业状态和生活节奏可能会受到明显冲击",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 19,
+      "rowIndex": 2,
+      "rowText": "如果将来分手，我的学业状态和生活节奏可能会受到明显冲击",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q19_3_missed_opportunity",
+      "title": "如果将来分手，我可能会因为这段感情错过其他更重要的人或机会",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 19,
+      "rowIndex": 3,
+      "rowText": "如果将来分手，我可能会因为这段感情错过其他更重要的人或机会",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q20_1_financial_pressure",
+      "title": "谈恋爱会带来不小的经济开销（约会、礼物、节日），我对此感到有压力",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 20,
+      "rowIndex": 1,
+      "rowText": "谈恋爱会带来不小的经济开销（约会、礼物、节日），我对此感到有压力",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q20_2_burden",
+      "title": "以我目前的经济能力，恋爱的花费会成为负担",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 20,
+      "rowIndex": 2,
+      "rowText": "以我目前的经济能力，恋爱的花费会成为负担",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q20_3_allowance_hesitation",
+      "title": "我不愿意因为恋爱开销而向父母要更多生活费",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 20,
+      "rowIndex": 3,
+      "rowText": "我不愿意因为恋爱开销而向父母要更多生活费",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q21_1_possession_bias",
+      "title": "对自己已经拥有的东西，我比同等价值但还没得到的东西更看重",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 21,
+      "rowIndex": 1,
+      "rowText": "对自己已经拥有的东西，我比同等价值但还没得到的东西更看重",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q21_2_loss_aversion",
+      "title": "做决定时，我更看重\"如何避免损失\"，而不是\"如何获得收益\"",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 21,
+      "rowIndex": 2,
+      "rowText": "做决定时，我更看重\"如何避免损失\"，而不是\"如何获得收益\"",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "做决定时，我更看重\"如何避免损失\"，而不是\"如何获得收益\"": [
+          "做决定时，我更看重“如何避免损失”，而不是“如何获得收益”"
+        ]
+      }
+    },
+    {
+      "key": "Q21_3_loss_impact",
+      "title": "相比\"可能得到什么\"，我更容易被\"可能失去什么\"影响决策",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 21,
+      "rowIndex": 3,
+      "rowText": "相比\"可能得到什么\"，我更容易被\"可能失去什么\"影响决策",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "相比\"可能得到什么\"，我更容易被\"可能失去什么\"影响决策": [
+          "相比“可能得到什么”，我更容易被“可能失去什么”影响决策"
+        ]
+      }
+    },
+    {
+      "key": "Q22_1_companionship",
+      "title": "恋爱能给我带来陪伴感和情绪支持",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 22,
+      "rowIndex": 1,
+      "rowText": "恋爱能给我带来陪伴感和情绪支持",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q22_2_reliable_confidant",
+      "title": "压力大的时候，恋爱对象是最可靠的倾诉对象",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 22,
+      "rowIndex": 2,
+      "rowText": "压力大的时候，恋爱对象是最可靠的倾诉对象",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q22_3_growth_motivation",
+      "title": "一段好的恋爱关系能让我更有动力、更好地成长",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 22,
+      "rowIndex": 3,
+      "rowText": "一段好的恋爱关系能让我更有动力、更好地成长",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q22_4_understanding_tolerance",
+      "title": "恋爱能让我学会理解与包容他人，这种能力对未来同样重要",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 22,
+      "rowIndex": 4,
+      "rowText": "恋爱能让我学会理解与包容他人，这种能力对未来同样重要",
+      "matrixTitle": "请评价以下说法的同意程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q23_attention_check",
+      "title": "为确认您认真作答，本题请直接选择\"比较不同意\":",
+      "type": "radio",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "为确认您认真作答，本题请直接选择\"比较不同意\":": [
+          "为确认您认真作答，本题请直接选择“比较不同意”：",
+          "为确认您认真作答"
+        ]
+      }
+    },
+    {
+      "key": "Q24_1_relationship_satisfaction",
+      "title": "我对目前这段恋爱关系感到满意",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 24,
+      "rowIndex": 1,
+      "rowText": "我对目前这段恋爱关系感到满意",
+      "matrixTitle": "(仅恋爱中)请评价以关于关系满意度的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q24_2_communication_satisfaction",
+      "title": "我对两人之间的沟通质量感到满意",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 24,
+      "rowIndex": 2,
+      "rowText": "我对两人之间的沟通质量感到满意",
+      "matrixTitle": "(仅恋爱中)请评价以关于关系满意度的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q25_relationship_reasons",
+      "title": "(仅恋爱中)您开始这段恋爱关系，主要是出于哪些原因?【多选题】",
+      "type": "checkbox",
+      "options": [
+        "遇到了非常合适、互相喜欢的人",
+        "希望获得陪伴与情感支持，缓解孤独",
+        "顺其自然，关系在日常相处中自然发展起来",
+        "周围朋友大多在恋爱，受到氛围影响",
+        "想体验恋爱、丰富人生经历",
+        "其他（请注明）"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q26_relationship_impact",
+      "title": "(仅恋爱中)回顾这段关系，恋爱对您的学业/个人发展造成的实际影响是?",
+      "type": "radio",
+      "options": [
+        "明显负面",
+        "偏负面",
+        "无明显影响",
+        "偏正面",
+        "明显正面"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q27_1_development_first",
+      "title": "我认同\"先把个人发展搞好，恋爱的事以后再说\"",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 27,
+      "rowIndex": 1,
+      "rowText": "我认同\"先把个人发展搞好，恋爱的事以后再说\"",
+      "matrixTitle": "请评价以下说法的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "我认同\"先把个人发展搞好，恋爱的事以后再说\"": [
+          "我认同“先把个人发展搞好，恋爱的事以后再说”"
+        ]
+      }
+    },
+    {
+      "key": "Q27_2_give_up_plan",
+      "title": "如果遇到非常喜欢且各方面都合适的人，我愿意放弃\"暂不恋爱\"的计划",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 27,
+      "rowIndex": 2,
+      "rowText": "如果遇到非常喜欢且各方面都合适的人，我愿意放弃\"暂不恋爱\"的计划",
+      "matrixTitle": "请评价以下说法的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {
+        "如果遇到非常喜欢且各方面都合适的人，我愿意放弃\"暂不恋爱\"的计划": [
+          "如果遇到非常喜欢且各方面都合适的人，我愿意放弃“暂不恋爱”的计划"
+        ]
+      }
+    },
+    {
+      "key": "Q27_3_expect_stable",
+      "title": "我期待在未来合适的时间进入一段稳定的恋爱关系",
+      "type": "radio",
+      "matrix": true,
+      "questionNo": 27,
+      "rowIndex": 3,
+      "rowText": "我期待在未来合适的时间进入一段稳定的恋爱关系",
+      "matrixTitle": "请评价以下说法的符合程度:",
+      "options": [
+        "非常不同意",
+        "比较不同意",
+        "不确定",
+        "比较同意",
+        "非常同意"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q28_ideal_timing",
+      "title": "您理想中开始（或已经开始）恋爱的时机是?",
+      "type": "radio",
+      "options": [
+        "本科期间",
+        "研究生阶段",
+        "工作以后",
+        "顺其自然，没有明确规划"
+      ],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q29_open_conditions",
+      "title": "您认为需要满足哪些条件，您才会（才曾）愿意开始一段恋爱关系?（开放题）",
+      "type": "text",
+      "textType": "textarea",
+      "options": [],
+      "answerMode": "text",
+      "defaultValue": "双方三观合适、能互相理解包容，并且彼此都有足够的时间和精力去经营这段感情。",
+      "answerPool": [
+        "对方人品好、有责任心，能互相尊重，学习和生活节奏合得来。",
+        "双方对未来规划比较一致，相处起来轻松舒服，不会影响各自的学业。",
+        "遇到真正喜欢的人，同时对方也喜欢我，彼此都有诚意和时间投入。",
+        "自己经济上能独立一些，心态也更成熟，能平衡好学业和感情。",
+        "对方情绪稳定，遇到分歧能好好沟通，而不是冷战或者逃避。"
+      ],
+      "poolMode": "random",
+      "aliases": {
+        "您认为需要满足哪些条件，您才会（才曾）愿意开始一段恋爱关系?（开放题）": [
+          "您认为需要满足哪些条件，您才会（才曾）愿意开始一段恋爱关系",
+          "需要满足哪些条件"
+        ]
+      }
+    }
+  ],
+  "matrixQuestions": [
+    {
+      "key": "Q16_matrix",
+      "questionNo": 16,
+      "title": "请评价以下说法与您的符合程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q16_1_academic_pressure", "rowIndex": 1, "text": "我常因学业、科研或就业感到压力" },
+        { "key": "Q16_2_time_insufficient", "rowIndex": 2, "text": "我经常觉得时间不够用" },
+        { "key": "Q16_3_parents_expect", "rowIndex": 3, "text": "我的父母希望我在读书期间谈恋爱（家庭婚恋观念）" },
+        { "key": "Q16_4_family_cautious", "rowIndex": 4, "text": "总体而言，我的家庭对婚恋持谨慎态度（如\"先立业后成家\"）" }
+      ]
+    },
+    {
+      "key": "Q17_matrix",
+      "questionNo": 17,
+      "title": "请评价以下说法与您的符合程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q17_1_natural_attitude", "rowIndex": 1, "text": "我对恋爱持\"顺其自然、观望\"的态度，不会刻意主动追求" },
+        { "key": "Q17_2_wait_and_see", "rowIndex": 2, "text": "即使遇到有好感的人，我也倾向于先观望，不急着开始" },
+        { "key": "Q17_3_enjoy_single", "rowIndex": 3, "text": "我享受目前的单身生活，没有强烈的脱单意愿" },
+        { "key": "Q17_4_hesitate", "rowIndex": 4, "text": "即使遇到比较合适的对象，我也会犹豫是否要进入一段关系" }
+      ]
+    },
+    {
+      "key": "Q18_matrix",
+      "questionNo": 18,
+      "title": "请评价以下说法的同意程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q18_1_time_squeeze", "rowIndex": 1, "text": "谈恋爱会明显挤占我用于学习和自我提升的时间" },
+        { "key": "Q18_2_performance_impact", "rowIndex": 2, "text": "如果谈恋爱，我的绩点、科研、实习或竞赛表现可能会受到影响" },
+        { "key": "Q18_3_future_benefit", "rowIndex": 3, "text": "花在恋爱上的时间，如果用来实习、考证或做项目，对我的未来帮助更大" },
+        { "key": "Q18_4_low_return", "rowIndex": 4, "text": "在我目前的人生阶段，时间是最宝贵的资源，我不愿意把它\"低回报\"地消耗掉" }
+      ]
+    },
+    {
+      "key": "Q19_matrix",
+      "questionNo": 19,
+      "title": "请评价以下说法的同意程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q19_1_unrecoverable_investment", "rowIndex": 1, "text": "如果将来分手，我在恋爱中投入的时间和精力将大部分无法收回" },
+        { "key": "Q19_2_breakup_shock", "rowIndex": 2, "text": "如果将来分手，我的学业状态和生活节奏可能会受到明显冲击" },
+        { "key": "Q19_3_missed_opportunity", "rowIndex": 3, "text": "如果将来分手，我可能会因为这段感情错过其他更重要的人或机会" }
+      ]
+    },
+    {
+      "key": "Q20_matrix",
+      "questionNo": 20,
+      "title": "请评价以下说法的同意程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q20_1_financial_pressure", "rowIndex": 1, "text": "谈恋爱会带来不小的经济开销（约会、礼物、节日），我对此感到有压力" },
+        { "key": "Q20_2_burden", "rowIndex": 2, "text": "以我目前的经济能力，恋爱的花费会成为负担" },
+        { "key": "Q20_3_allowance_hesitation", "rowIndex": 3, "text": "我不愿意因为恋爱开销而向父母要更多生活费" }
+      ]
+    },
+    {
+      "key": "Q21_matrix",
+      "questionNo": 21,
+      "title": "请评价以下说法的同意程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q21_1_possession_bias", "rowIndex": 1, "text": "对自己已经拥有的东西，我比同等价值但还没得到的东西更看重" },
+        { "key": "Q21_2_loss_aversion", "rowIndex": 2, "text": "做决定时，我更看重\"如何避免损失\"，而不是\"如何获得收益\"" },
+        { "key": "Q21_3_loss_impact", "rowIndex": 3, "text": "相比\"可能得到什么\"，我更容易被\"可能失去什么\"影响决策" }
+      ]
+    },
+    {
+      "key": "Q22_matrix",
+      "questionNo": 22,
+      "title": "请评价以下说法的同意程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q22_1_companionship", "rowIndex": 1, "text": "恋爱能给我带来陪伴感和情绪支持" },
+        { "key": "Q22_2_reliable_confidant", "rowIndex": 2, "text": "压力大的时候，恋爱对象是最可靠的倾诉对象" },
+        { "key": "Q22_3_growth_motivation", "rowIndex": 3, "text": "一段好的恋爱关系能让我更有动力、更好地成长" },
+        { "key": "Q22_4_understanding_tolerance", "rowIndex": 4, "text": "恋爱能让我学会理解与包容他人，这种能力对未来同样重要" }
+      ]
+    },
+    {
+      "key": "Q24_matrix",
+      "questionNo": 24,
+      "title": "(仅恋爱中)请评价以关于关系满意度的符合程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q24_1_relationship_satisfaction", "rowIndex": 1, "text": "我对目前这段恋爱关系感到满意" },
+        { "key": "Q24_2_communication_satisfaction", "rowIndex": 2, "text": "我对两人之间的沟通质量感到满意" }
+      ]
+    },
+    {
+      "key": "Q27_matrix",
+      "questionNo": 27,
+      "title": "请评价以下说法的符合程度:",
+      "type": "matrix",
+      "answerMode": "matrix-row-index",
+      "options": ["非常不同意", "比较不同意", "不确定", "比较同意", "非常同意"],
+      "rows": [
+        { "key": "Q27_1_development_first", "rowIndex": 1, "text": "我认同\"先把个人发展搞好，恋爱的事以后再说\"" },
+        { "key": "Q27_2_give_up_plan", "rowIndex": 2, "text": "如果遇到非常喜欢且各方面都合适的人，我愿意放弃\"暂不恋爱\"的计划" },
+        { "key": "Q27_3_expect_stable", "rowIndex": 3, "text": "我期待在未来合适的时间进入一段稳定的恋爱关系" }
+      ]
+    }
+  ],
+  "notes": [
+    "配置生成日期：2026-10-15，对应问卷 https://v.wjx.cn/vm/h4xbv69.aspx（《大学生时间分配与情感生活调查问卷》，共29题），按页面真实 DOM 提取。",
+    "跳转逻辑（问卷星 jumpto，脚本无需处理，页面自动跳）：Q1 选\"正在恋爱中\"(1) 直接跳到 Q5；Q1 选 2/3 进入 Q2；Q2 选\"我主动选择暂不恋爱\"(1) 跳到 Q4（跳过 Q3）。对应题在 CSV 里留空即可。",
+    "显示逻辑：Q24/Q25/Q26 仅在 Q1=1（恋爱中）时显示；Q29 仅在 Q1∈{2,3}（单身）时显示。不满足条件的答卷这些列留空，脚本记为\"空值\"并继续，不会报警。",
+    "Q3 为多选题且最多选 3 项，CSV 用竖线分隔，如 1|2|3；Q25 为多选题格式同上。",
+    "Q4 为问卷星量表题（type=5，a[val] 锚点），CSV 填 1-5（1=完全没有，5=非常强烈），需要脚本 v1.7.0 及以上的 scale 支持。",
+    "Q16-Q22、Q24、Q27 为矩阵量表题，CSV 填 1-5（1=非常不同意，5=非常同意），与脚本 v1.6.1+ 的矩阵 dval 定位逻辑对应。",
+    "Q23 为注意力检测题，CSV 必须填 2（比较不同意），否则问卷数据会被判定无效。",
+    "Q11、Q29 为填空题：CSV 有值就填 CSV 的；留空则脚本自动从 answerPool 随机取一条（poolMode=random）或用 defaultValue。",
+    "本问卷所有题的选项文字已按页面原文提取（含\"专科\"无字母前缀、Q23 无字母选项等），引号在 normalizeForMatch 中会被忽略，直引号/弯引号均可匹配。"
+  ]
+}
